@@ -21,4 +21,4 @@ runs:
       shell: bash
     - id: minus
       run: echo "result=$((${{ inputs.x }} - ${{ inputs.y }}))" >> $GITHUB_OUTPUT
-      shell: ba
+      shell: bash
