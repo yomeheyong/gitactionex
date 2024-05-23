@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: calc
-      - uses: yomeheyong/gitactionex@main
+        uses: yomeheyong/gitactionex@main
         with:
           x: 12
           y: 3
